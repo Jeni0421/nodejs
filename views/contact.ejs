@@ -17,5 +17,20 @@
 
     <p>Contact Number: 09456198050</p>
     <p>Email: zauldajenilyn@gmail.com</p>
+
+    <--Feedback Form-->
+    <h2>Feedback Form</h2>
+    <form action="/contact" method="POST"> <!-- Correct action matching POST route -->
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Your Feedback:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
 </body>
 </html>
